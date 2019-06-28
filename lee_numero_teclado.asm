@@ -1,5 +1,5 @@
 section .data								;Segmento de Dato
-	userMsg db 'Please entere a Numbre: '	;Pide al Usuario que Ingrese un Número
+	userMsg db 'Please ente a Numbre: '	;Pide al Usuario que Ingrese un Número
 	lenUserMsg equ $-userMsg				;La Longitud del Mensaje
 	dispMsg db 'You Have Entered: '
 	lenDispMsg equ $-dispMsg
