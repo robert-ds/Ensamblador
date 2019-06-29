@@ -14,7 +14,7 @@ _start:
 	mov eax,4
 	mov ebx,1
 	mov	ecx,userMsg
-	mov	eax,lenUserMsg
+	mov	edx,lenUserMsg
 	int 80h
 
 	;Lee y almacena la entrada del usuario
