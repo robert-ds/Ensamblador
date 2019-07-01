@@ -21,4 +21,4 @@ _start:
 	int 0x80
 
 	section .data
-	name db 'Zara Ali '
+	name db 'Zara Ali  '
