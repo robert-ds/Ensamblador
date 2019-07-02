@@ -4,7 +4,7 @@ sMensaje db 'New-Software',10		;El valor de 10 permite saltar a una nueva linea 
 section .text
 		global _start
 _start:
-;Despliegue 'Robert'
+;Despliegue 'New-software'
 	mov edx, 13 		;Caracteres a mprmr
 	mov ecx, sMensaje 	;Drección del Mensaje
 	mov	ebx,1			;Salida a Pantalla (stdout)
@@ -14,7 +14,7 @@ _start:
 	;Cambia Robert 'All-'
 	mov [sMensaje], dword 'All-'
 
-	;Despliega 'All-Andres'
+	;Despliega 'All-Software'
 	mov edx,13 			;13 Caracteres a imprimir
 	;mov edx,15q		;En Octal
 	;mov edx,0xd		;En Hexadecimal
