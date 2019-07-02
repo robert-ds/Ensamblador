@@ -7,7 +7,7 @@ section .data
 %assign STDIN 		0
 %assign STDOUT 		1
 %assign CHR_EXCL 	'!'
-%assign EQL 		0xA  ;Redefinimos con el valor correcto
+%assign EQL 		0xA  ;Salto de Lnea
 %assign SYS_EXIT	1	 ;Redefinimos con el valor correcto
 
 ;Definimos Variable Mensaje
